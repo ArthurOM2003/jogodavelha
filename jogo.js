@@ -136,6 +136,7 @@ draw();           //            COLUNAS
 function draw(){
   if(contador>8){
     alert("draw");
+    contador=0;
   }
 }
 
@@ -144,7 +145,7 @@ function Reset(){
 for (var i = 0; i < TDs1.length; i++) {
   TDs1[i].innerHTML="";
   jogador.innerHTML="Vez do Jogador: 1";
-  contador=0;
+  
   vez=true;
 }
 
